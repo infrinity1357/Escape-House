@@ -5616,7 +5616,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505562319}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -14735,7 +14735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackingType: 0
-  m_UpdateType: 1
+  m_UpdateType: 0
   m_PositionAction:
     m_Name: Main Camera - TPD - Position
     m_Type: 0
@@ -19265,7 +19265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1677900892}
-  m_TurnSpeed: 60
+  m_TurnSpeed: 50
   m_LeftHandTurnAction:
     m_UseReference: 0
     m_Action:
@@ -19301,10 +19301,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1677900892}
-  m_TurnAmount: 45
-  m_DebounceTime: 0.5
-  m_EnableTurnLeftRight: 1
-  m_EnableTurnAround: 1
+  m_TurnAmount: 15
+  m_DebounceTime: 0.1
+  m_EnableTurnLeftRight: 0
+  m_EnableTurnAround: 0
   m_LeftHandSnapTurnAction:
     m_UseReference: 0
     m_Action:
