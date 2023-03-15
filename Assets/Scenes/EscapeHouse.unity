@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lighter_Candle_2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0c8f02132d88254685d0679d620ff22, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0c8f02132d88254685d0679d620ff22, type: 3}
 --- !u!1 &8448694
@@ -2332,7 +2336,7 @@ GameObject:
   - component: {fileID: 235308786}
   - component: {fileID: 235308785}
   - component: {fileID: 235308784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3495,7 +3499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 321104943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3510,7 +3514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321104942}
   m_LocalRotation: {x: -0, y: -0, z: -0.0015819048, w: 0.99999875}
-  m_LocalPosition: {x: -0.012124538, y: 1.4, z: -0.31899977}
+  m_LocalPosition: {x: -0.012, y: 1.396, z: -0.377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1304530882}
@@ -4733,7 +4737,7 @@ GameObject:
   - component: {fileID: 474225662}
   - component: {fileID: 474225661}
   - component: {fileID: 474225660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightHand Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5531,7 +5535,7 @@ GameObject:
   - component: {fileID: 505562326}
   - component: {fileID: 505562329}
   - component: {fileID: 505562328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7425,7 +7429,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 1
   m_VelocityDamping: 0.4
   m_VelocityScale: 1
   m_AngularVelocityDamping: 0.4
@@ -9680,7 +9684,7 @@ GameObject:
   - component: {fileID: 854957384}
   - component: {fileID: 854957383}
   - component: {fileID: 854957382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Right Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12723,6 +12727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Device Simulator
       objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
 --- !u!1001 &1111236029
@@ -13933,7 +13941,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 2
   m_VelocityDamping: 0.4
   m_VelocityScale: 1
   m_AngularVelocityDamping: 0.4
@@ -14053,7 +14061,7 @@ GameObject:
   - component: {fileID: 1263931679}
   - component: {fileID: 1263931678}
   - component: {fileID: 1263931677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Left Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14862,7 +14870,7 @@ GameObject:
   - component: {fileID: 1304530880}
   - component: {fileID: 1304530883}
   - component: {fileID: 1304530884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -14928,7 +14936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304530879}
   m_LocalRotation: {x: 0.0139665045, y: -0, z: -0, w: 0.9999025}
-  m_LocalPosition: {x: 0, y: -0.007, z: 0}
+  m_LocalPosition: {x: -0.1, y: 0.107, z: 0.003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 321104943}
