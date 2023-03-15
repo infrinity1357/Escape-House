@@ -6,15 +6,15 @@ using UnityEngine.UI;
 public class TimerController : MonoBehaviour
 {
     public string textTime;
-
-    public float guiTime;
-    public float startTime;
-    public int minutes;
-    public int seconds;
-    public int fraction;
-
     public Text textField;
-    public Text overText;
+    public float startTime;
+
+    private float guiTime;
+    private int minutes;
+    private int seconds;
+    private int fraction;
+
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,12 +29,11 @@ public class TimerController : MonoBehaviour
         minutes = (int)guiTime / 60;
         seconds = (int)guiTime % 60;
         fraction = (int)guiTime  * 100 % 100;
-        // textTime = string.Format("{0:00} : {1:00}", minutes, seconds, fraction);
-        textTime = string.Format("{00}", guiTime);
+        textTime = string.Format("{0:00} : {1:00}", minutes, seconds, fraction);
+        // textTime = string.Format("{00}", guiTime);
         if (minutes <= 0 && seconds <= 0)
         {
             textField.text = "Game Over";
-            // overText.SetActive(true);
         }
         else
         {
