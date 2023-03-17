@@ -11809,7 +11809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTime: 
   textField: {fileID: 957709808}
-  startTime: 60
+  startTime: 240
   gameManagerController: {fileID: 1601568300}
 --- !u!1 &976290823
 GameObject:
